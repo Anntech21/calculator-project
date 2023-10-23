@@ -13,7 +13,7 @@ let multiple = document.querySelector("#multiple");
 
 let divide = document.querySelector("#divide");
 
-let clear = document.querySelector(".clear-button");
+let clear = document.querySelector("#clear-button");
 
 let equals = document.querySelector("#equals");
 
@@ -40,8 +40,8 @@ subtract.addEventListener("click", function () {
   currentOperator = content;
 });
 
-multiply.addEventListener("click", function () {
-  let content = multiply.textContent;
+multiple.addEventListener("click", function () {
+  let content = multiple.textContent;
   currentOperator = content;
 });
 
